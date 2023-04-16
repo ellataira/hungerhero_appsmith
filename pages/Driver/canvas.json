@@ -1104,7 +1104,7 @@
                       "widgetName": "employee_id",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{Fire_Driver.run(() => Fire_Driver.run(), () => {})}}",
+                      "onSubmit": "",
                       "searchTags": [
                         "form",
                         "text input",
@@ -1137,7 +1137,7 @@
                       ],
                       "labelPosition": "Top",
                       "labelStyle": "",
-                      "inputType": "TEXT",
+                      "inputType": "NUMBER",
                       "isDisabled": false,
                       "key": "v0e3hh8btc",
                       "labelTextSize": "0.875rem",
@@ -2202,7 +2202,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.375,
-              "leftColumn": 37,
+              "leftColumn": 30,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -2326,8 +2326,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
+                      "originalTopRow": 33,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 37,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -2371,8 +2373,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
+                      "originalTopRow": 33,
                       "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 37,
                       "buttonVariant": "SECONDARY",
                       "placement": "CENTER"
                     },
@@ -2530,7 +2534,7 @@
               "key": "g863duyj2p",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 55,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "j0qkrbdi7l",
               "minWidth": 450,
