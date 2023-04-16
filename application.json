@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Users",
       "isDefault": true
+    },
+    {
+      "id": "Rest",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -11,6 +15,9 @@
   "color": "#FFEBFB",
   "icon": "basketball",
   "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
     "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],
