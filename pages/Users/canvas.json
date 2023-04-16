@@ -693,7 +693,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "Container3",
+              "widgetName": "GetUsersWidget",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -1265,7 +1265,7 @@
                       "textSize": "0.875rem",
                       "widgetId": "tr6v53q13o",
                       "minWidth": 450,
-                      "tableData": "{{get_users.data}}",
+                      "tableData": "{{GetUsers.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "vz20povcic",
@@ -1359,7 +1359,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "Container2",
+              "widgetName": "GetHighestSpendingUsersWidget",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -1594,7 +1594,7 @@
                       "textSize": "0.875rem",
                       "widgetId": "k6gh1b0zz5",
                       "minWidth": 450,
-                      "tableData": "{{top_10_highest_spending_users.data}}",
+                      "tableData": "{{GetHighestSpent.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "m4yk8ig104",
@@ -1688,7 +1688,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "Container1",
+              "widgetName": "GetMostOrdersPlacesWidget",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -1923,7 +1923,7 @@
                       "textSize": "0.875rem",
                       "widgetId": "bev6pqpwfr",
                       "minWidth": 450,
-                      "tableData": "{{top_10_ordersPlaced.data}}",
+                      "tableData": "{{GetMostPlaced.data}}",
                       "label": "Data",
                       "searchKey": "",
                       "parentId": "9dws1hfinm",
@@ -2017,7 +2017,7 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
-              "widgetName": "update_customer",
+              "widgetName": "NewCustomerWidget",
               "isCanvas": true,
               "displayName": "Form",
               "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
@@ -2114,7 +2114,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
-                      "onClick": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onClick": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -2213,7 +2213,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => new_customer_information.run())}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => NewUser.run())}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2279,7 +2279,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2345,7 +2345,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 24,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2411,7 +2411,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2477,7 +2477,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2543,7 +2543,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 24,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2609,7 +2609,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2675,7 +2675,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2741,7 +2741,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 24,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2807,7 +2807,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -2873,7 +2873,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 24,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3172,7 +3172,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3238,7 +3238,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3304,7 +3304,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3370,7 +3370,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3436,7 +3436,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3502,7 +3502,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3801,7 +3801,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => new_customer_information.run())}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => NewUser.run())}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3867,7 +3867,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3933,7 +3933,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -3999,7 +3999,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -4065,7 +4065,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 6,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -4131,7 +4131,7 @@
                     {
                       "boxShadow": "none",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "onSubmit": "{{new_customer_information.run(() => new_customer_information.run(), () => {})}}",
+                      "onSubmit": "{{NewUser.run(() => NewUser.run(), () => {})}}",
                       "topRow": 15,
                       "labelWidth": 5,
                       "type": "INPUT_WIDGET_V2",
@@ -4236,24 +4236,24 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Users_get_users",
-              "name": "get_users",
+              "id": "Users_GetHighestSpent",
+              "name": "GetHighestSpent",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Users_top_10_highest_spending_users",
-              "name": "top_10_highest_spending_users",
+              "id": "Users_GetMostPlaced",
+              "name": "GetMostPlaced",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Users_top_10_ordersPlaced",
-              "name": "top_10_ordersPlaced",
+              "id": "Users_GetUsers",
+              "name": "GetUsers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

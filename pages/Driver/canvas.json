@@ -28,7 +28,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "Lowest_Rated_All",
+              "widgetName": "LowestRatedWidget",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -324,7 +324,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "Highest_Rated_All",
+              "widgetName": "HighestRatedWidget",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -616,7 +616,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "Highest_Earning_All",
+              "widgetName": "HighestEarningWidget",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -2957,19 +2957,23 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Driver_Most_Earned",
-              "name": "Most_Earned",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "Driver_Worst_Drivers",
               "name": "Worst_Drivers",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Driver_Most_Earned",
+              "name": "Most_Earned",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "HighestEarningWidget"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
