@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "top_10_ordersPlaced",
+    "name": "Worst_Drivers",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/u/mostOrdersPlaced"
+        "url": "web:4000/d/worstDrivers"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Users",
+    "pageId": "Driver",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,7 +36,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -47,7 +47,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Users_top_10_ordersPlaced",
+  "id": "Driver_Worst_Drivers",
   "deleted": false,
-  "gitSyncId": "643aecf8a6a1427637358fc4_643c08a4a6a1427637358fd0"
+  "gitSyncId": "643aec7c093b275faa167f58_643c102d093b275faa167f6a"
 }
