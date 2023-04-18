@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{HighestRatedDrivers}}",
+      "body": "{{HighestRatedW}}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "HighestRatedDrivers"
+      "HighestRatedW"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

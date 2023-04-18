@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{LowestRatedDrivers}}",
+      "body": "{{LowestRatedW}}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
@@ -52,7 +52,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "LowestRatedDrivers"
+      "LowestRatedW"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

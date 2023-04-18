@@ -28,7 +28,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "LowestRatedWidget",
+              "widgetName": "LowestRatedW",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -324,7 +324,7 @@
             {
               "tabId": "",
               "boxShadow": "NONE",
-              "widgetName": "HighestRatedWidget",
+              "widgetName": "HighestRatedW",
               "borderColor": "#E0DEDE",
               "isCanvas": true,
               "displayName": "Container",
@@ -2438,7 +2438,7 @@
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "originalBottomRow": 23,
-                      "widgetName": "phone",
+                      "widgetName": "new_phone",
                       "displayName": "Input",
                       "searchTags": [
                         "form",
@@ -2948,17 +2948,42 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
-        "layoutOnLoadActionErrors": [
-          {
-            "code": "AE-CYC-4041",
-            "title": "CONFIGURATION_ERROR",
-            "message": "A cyclic dependency error has been encountered on current page, \nqueries on page load will not run. \n Please check debugger and Appsmith documentation for more information",
-            "errorType": "Cyclical dependency error encountered while parsing relationship [HighestRatedDrivers : Highest_Rated.actionConfiguration.body] where the relationship is denoted as (source : target).",
-            "referenceDoc": "Cyclical Dependency in Page Load Actions"
-          }
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Driver_Highest_Rated",
+              "name": "Highest_Rated",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "HighestRatedW"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Driver_Most_Earned",
+              "name": "Most_Earned",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "HighestEarningWidget"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Driver_Worst_Drivers",
+              "name": "Worst_Drivers",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "LowestRatedW"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
         ],
-        "validOnPageLoadActions": false,
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
         "id": "Driver",
         "deleted": false,
         "policies": [],
