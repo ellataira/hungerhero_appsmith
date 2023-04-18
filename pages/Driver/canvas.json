@@ -1351,8 +1351,10 @@
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "responsiveBehavior": "hug",
+                      "originalTopRow": 33,
                       "disabledWhenInvalid": true,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 37,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
                     },
@@ -2946,40 +2948,17 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Driver_Highest_Rated",
-              "name": "Highest_Rated",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Driver_Worst_Drivers",
-              "name": "Worst_Drivers",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Driver_Most_Earned",
-              "name": "Most_Earned",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "HighestEarningWidget"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [
+          {
+            "code": "AE-CYC-4041",
+            "title": "CONFIGURATION_ERROR",
+            "message": "A cyclic dependency error has been encountered on current page, \nqueries on page load will not run. \n Please check debugger and Appsmith documentation for more information",
+            "errorType": "Cyclical dependency error encountered while parsing relationship [HighestRatedDrivers : Highest_Rated.actionConfiguration.body] where the relationship is denoted as (source : target).",
+            "referenceDoc": "Cyclical Dependency in Page Load Actions"
+          }
         ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
+        "validOnPageLoadActions": false,
         "id": "Driver",
         "deleted": false,
         "policies": [],
