@@ -27,6 +27,62 @@
           "leftColumn": 0,
           "children": [
             {
+              "widgetName": "Text7",
+              "displayName": "Text",
+              "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+              "searchTags": [
+                "typography",
+                "paragraph",
+                "label"
+              ],
+              "topRow": 0,
+              "bottomRow": 4,
+              "parentRowSpace": 10,
+              "type": "TEXT_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "overflow": "NONE",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 11.453125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 28,
+              "dynamicBindingPathList": [
+                {
+                  "key": "truncateButtonColor"
+                },
+                {
+                  "key": "fontFamily"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "shouldTruncate": false,
+              "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+              "text": "User Information\n",
+              "key": "7r9frr4jmn",
+              "isDeprecated": false,
+              "rightColumn": 42,
+              "textAlign": "LEFT",
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "y2mlzaph3q",
+              "minWidth": 450,
+              "isVisible": true,
+              "fontStyle": "BOLD",
+              "textColor": "#231F20",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill",
+              "originalTopRow": 1,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 8,
+              "fontSize": "1rem",
+              "minDynamicHeight": 4
+            },
+            {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#E0DEDE",
               "widgetName": "DeleteUserWidget",
@@ -36,8 +92,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 195,
-              "bottomRow": 218,
+              "topRow": 197,
+              "bottomRow": 220,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -319,10 +375,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 195,
+              "originalTopRow": 197,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 218,
+              "originalBottomRow": 220,
               "minDynamicHeight": 10
             },
             {
@@ -335,8 +391,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 195,
-              "bottomRow": 225,
+              "topRow": 197,
+              "bottomRow": 227,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -684,10 +740,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 195,
+              "originalTopRow": 197,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 225,
+              "originalBottomRow": 227,
               "minDynamicHeight": 10
             },
             {
@@ -703,8 +759,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 113,
-              "bottomRow": 152,
+              "topRow": 116,
+              "bottomRow": 155,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1351,9 +1407,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 113,
+              "originalTopRow": 116,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 152,
+              "originalBottomRow": 155,
               "minDynamicHeight": 10
             },
             {
@@ -1369,8 +1425,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 56,
-              "bottomRow": 112,
+              "topRow": 59,
+              "bottomRow": 115,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1680,9 +1736,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 56,
+              "originalTopRow": 59,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 112,
+              "originalBottomRow": 115,
               "minDynamicHeight": 10
             },
             {
@@ -1698,8 +1754,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 0,
-              "bottomRow": 55,
+              "topRow": 4,
+              "bottomRow": 59,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -2009,9 +2065,9 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 0,
+              "originalTopRow": 4,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 55,
+              "originalBottomRow": 59,
               "minDynamicHeight": 10
             },
             {
@@ -2024,8 +2080,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 152,
-              "bottomRow": 191,
+              "topRow": 157,
+              "bottomRow": 196,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -2967,10 +3023,10 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "responsiveBehavior": "fill",
-              "originalTopRow": 152,
+              "originalTopRow": 157,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 191,
+              "originalBottomRow": 196,
               "minDynamicHeight": 10
             },
             {
@@ -2991,7 +3047,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.375,
-              "leftColumn": 2,
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -3587,7 +3643,7 @@
               "key": "jjdlklzggx",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 61,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "e2en48nl74",
               "minWidth": 450,
@@ -3620,7 +3676,7 @@
               "shouldScrollContents": true,
               "animateLoading": true,
               "parentColumnSpace": 12.375,
-              "leftColumn": 2,
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -4216,7 +4272,7 @@
               "key": "jjdlklzggx",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 64,
+              "rightColumn": 63,
               "dynamicHeight": "AUTO_HEIGHT",
               "widgetId": "buadyddb4q",
               "minWidth": 450,
